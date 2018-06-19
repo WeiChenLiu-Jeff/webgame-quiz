@@ -1,0 +1,87 @@
+/* line 4, ../sass/main.sass */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #141018;
+}
+
+/* line 8, ../sass/main.sass */
+body {
+  font-family: Jura;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 12, ../sass/main.sass */
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* line 24, ../sass/main.sass */
+.header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100px;
+}
+
+/* line 27, ../sass/main.sass */
+.footer {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 50px;
+  position: fixed;
+}
+
+/* line 31, ../sass/main.sass */
+.content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - (100px + 50px));
+  color: white;
+}
+
+/* line 38, ../sass/main.sass */
+#title {
+  margin-top: 100px;
+  color: #FFFFFF;
+}
+
+/* line 41, ../sass/main.sass */
+#card {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* line 44, ../sass/main.sass */
+.main {
+  position: relative;
+}
+
+/* line 46, ../sass/main.sass */
+.list-group {
+  width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 49, ../sass/main.sass */
+  #title {
+    margin-top: 50px;
+  }
+
+  /* line 51, ../sass/main.sass */
+  .list-group {
+    width: 300px;
+  }
+}
